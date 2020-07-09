@@ -105,7 +105,7 @@ body {
   background-attachment: local, local;
   background-repeat:no-repeat, no-repeat;        
   background-position: center top 7em, left 0 bottom 0;
-  background-size: 90% 35%, 70% 10%;
+  background-size: 90% 35%, 70% 5em;
   text-align: center;
   }
   .text-div {
@@ -120,7 +120,7 @@ body {
     margin: auto;
   }
   .navi {
-    left: 9em;
+    left: 6em;
   }
   span {
     display: block;
