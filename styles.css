@@ -10,6 +10,7 @@ body {
 }
 img {
   border-radius: 2px;
+  width: 100%;
 }
 .test {
   z-index: 1;
@@ -55,7 +56,6 @@ span {
 body {
   background-position: right 4.5em bottom 5em, top 6.5em left 18em, left 0 bottom 0;
   background-size: 40% 80%, 9% 16%, 40% 18%;
-  margin-top: 5.5em;
 }
 
 .text-div {
@@ -65,13 +65,14 @@ body {
   min-height: 22em;
   margin-bottom: 50px;
   flex-direction: row;
+  margin-top: 5.5em;
 }
 
 /* .image :not(.navi) {
   width: 45%;
 } */
 .image {
-  width: 100%;
+  width: 40%;
   align-self: center;
 }
 .image > img {
@@ -83,10 +84,11 @@ img {
 }
 .test {
   align-self: center;
+  width: 60%;      
 }
 .test p:not(.student-info) {
-margin-right: -2em;
-margin-left: 1.8em;
+margin-right: -2.4em;
+margin-left: 2.2em;
 }
 
 .navi {
@@ -106,7 +108,8 @@ body {
   }
   .text-div {
     flex-direction: column-reverse;
-    width: 100%;      
+    width: 100%; 
+    margin-top: 3em;      
   }
   .test p:not(.student-info) {
     margin: auto;
@@ -117,5 +120,7 @@ body {
   span {
     display: block;
   }
+  .test, .image {
+    width: 100%;      
 }
 
