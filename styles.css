@@ -49,29 +49,6 @@ span {
 }
 
 
-        /* MOBILE STYLES */
-        @media screen and (max-width:512px) {
-        body {
-          width: 80%;
-          margin: auto;
-          background-position: center top 35%, top 6.5em left 18em, left 0 bottom 0;
-          background-size: 80% 20%, 9% 16%, 40% 18%;
-          text-align: center;
-          }
-          .text-div {
-            flex-direction: column-reverse;
-          }
-          .test p:not(.student-info) {
-            margin: auto;
-          }
-          .navi {
-            left: 6em;
-          }
-          span {
-            display: block;
-          }
-        }
-
         /* DESKTOP STYLES */
 
 body {
@@ -116,3 +93,27 @@ margin-left: 1.8em;
   bottom:1em;
   left: 4em;
 }
+
+
+       /* MOBILE STYLES */
+        @media screen and (max-width:512px) {
+        body {
+          width: 80%;
+          margin: auto;
+          background-position: center top 35%, top 6.5em left 18em, left 0 bottom 0;
+          background-size: 80% 20%, 9% 16%, 40% 18%;
+          text-align: center;
+          }
+          .text-div {
+            flex-direction: column-reverse;
+          }
+          .test p:not(.student-info) {
+            margin: auto;
+          }
+          .navi {
+            left: 6em;
+          }
+          span {
+            display: block;
+          }
+        }
