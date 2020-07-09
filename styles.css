@@ -7,6 +7,7 @@ body {
 }
 .text-div {
   display: none;
+  min-height: 22em;      
 }
 img {
   border-radius: 2px;
@@ -48,6 +49,8 @@ span {
   color: hsl(240, 18%, 77%);
   font-size: 16px;
 }
+.attribution { font-size: 11px; text-align: center;}
+.attribution a { color: hsl(228, 45%, 44%); }
 
 
 
@@ -60,12 +63,8 @@ body {
 
 .text-div {
   width: 80%;
-  margin-top: 200px;
-  margin: auto;
-  min-height: 22em;
-  margin-bottom: 50px;
+  margin: 5.5em auto;
   flex-direction: row;
-  margin-top: 5.5em;
 }
 
 /* .image :not(.navi) {
@@ -98,12 +97,15 @@ margin-left: 2.2em;
 
 
           /* MOBILE STYLES */
-@media screen and (max-width:512px) {
+@media screen and (max-width:375px) {
 body {
   width: 80%;
   margin: auto;
-  background-position: center top 35%, top 6.5em left 18em, left 0 bottom 0;
-  background-size: 80% 20%, 9% 16%, 40% 18%;
+  background-image: url('images/pattern-bg.svg'), url('images/pattern-curve.svg');
+  background-attachment: local, local;
+  background-repeat:no-repeat, no-repeat;        
+  background-position: center top 7em, left 0 bottom 0;
+  background-size: 90% 35%, 70% 10%;
   text-align: center;
   }
   .text-div {
@@ -111,16 +113,23 @@ body {
     width: 100%; 
     margin-top: 3em;      
   }
+  .test {
+    background: url('images/pattern-quotes.svg') local no-repeat  top center/20% 5em;          
+  }
   .test p:not(.student-info) {
     margin: auto;
   }
   .navi {
-    left: 6em;
+    left: 9em;
   }
   span {
     display: block;
   }
   .test, .image {
-    width: 100%;      
+    width: 100%;
+   }
+  .attribution {
+    margin: 3em auto;
+  }        
 }
 
