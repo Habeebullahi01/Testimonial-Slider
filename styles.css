@@ -50,14 +50,13 @@ span {
 
 
         /* MOBILE STYLES */
-        @media screen and (max-width:375px) {
+        @media screen and (max-width:512px) {
         body {
           width: 80%;
           margin: auto;
           background-position: center top 35%, top 6.5em left 18em, left 0 bottom 0;
           background-size: 80% 20%, 9% 16%, 40% 18%;
           text-align: center;
-          color: red;
           }
           .text-div {
             flex-direction: column-reverse;
