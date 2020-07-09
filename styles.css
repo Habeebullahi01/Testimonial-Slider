@@ -52,7 +52,17 @@ span {
 .attribution { font-size: 11px; text-align: center;}
 .attribution a { color: hsl(228, 45%, 44%); }
 
-
+button {
+  margin:auto;
+  border: 0 ;
+  background-color: transparent;
+}
+button:hover {
+  background-color: #ddd;
+}
+button:active {
+  border-width: 2px;
+}
 
         /* DESKTOP STYLES */
 
